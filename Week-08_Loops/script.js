@@ -12,7 +12,7 @@ const centerY = canvas.height / 2;
 const baseCircleRadius = 10; // Base radius of the circles
 
 // Function to draw a circle at a given position with a specified radius and color
-function drawCircle(x, y, radius, context, color) {
+function drawCircle(x, y, radius, color) {
   context.fillStyle = color;
   context.beginPath();
   context.arc(x, y, radius, 0, Math.PI * 2);
@@ -34,7 +34,7 @@ function drawArt() {
   context.clearRect(0, 0, canvas.width, canvas.height);
 
   // Draw the central circle
-  drawCircle(centerX, centerY, 10 * 1.5, context, getRandomHslColor());
+  drawCircle(centerX, centerY, baseCircleRadius, getRandomHslColor());
 
   // TODO: Add a for loop to draw circles
 
