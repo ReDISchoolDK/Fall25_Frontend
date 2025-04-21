@@ -1,12 +1,19 @@
-## Week 3: Interactive JavaScript Trivia Bot
-**Summary:**  
-This week, you will deepen your understanding of functions and learn about variables and their scopes. Additionally, you will discover how to use the debugger in your browser.
+# Week 3 JavaScript Basics
 
-**Tasks:**
-- **FreeCodeCamp Lab:**  
+## Summary  
+This week, you will learn the basics of Javascript, how to use functions and learn about variables. Additionally, you will discover how to use the debugger in your browser.
+
+## Resources
+Here are some resources to help you understand the basics of JavaScript. It is not required to go through all of them, but they are good references if you need them or get stuck.
+
+- [W3 schools JavaScript variables](hhttps://www.w3schools.com/js/js_variables.asp)
+- [W3 schools JavaScript functions](https://www.w3schools.com/js/js_functions.asp)
+
+## Tasks
+### FreeCodeCamp Lab 
   - Complete the [Build a JavaScript Trivia Bot](https://www.freecodecamp.org/learn/full-stack-developer/lab-javascript-trivia-bot/lab-javascript-trivia-bot) lab. This lab will help you practice essential JavaScript concepts like declaring variables, writing functions, and using conditional logic.
   
-- **Project Work:**  
+### Project Work
   - **Update Folder Structure:**  
     Add ` script.js` files to each folder in your project. At the end it should be structured like this:
     ```
@@ -46,6 +53,3 @@ This week, you will deepen your understanding of functions and learn about varia
    That is all for this week, we are setting things up for the future here!
 - **Version Control:**  
   - Commit your work with clear, descriptive messages and push your changes to GitHub.
-  
-- **Testing:**  
-  - Open your `trivia/index.html` in a browser, test the interactive trivia bot, and use browser developer tools to debug any issues.

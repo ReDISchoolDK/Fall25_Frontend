@@ -1,7 +1,7 @@
 # Week 01: Introduction
 
-**Summary:**  
-This week kicks off the course with an introduction to the tools and workflow you’ll use. The goal is to get your development environment ready and learn the basics of version control. You will set up a code editor and Node.js, create a GitHub repository for your work, and familiarize yourself with using Git to track changes. By the end of the week, you’ll have a project repository initialized and understand how to push code to GitHub.
+## Summary  
+This week kicks off the course with an introduction to the tools and workflow you’ll use. The goal is to get your development environment ready and learn the basics of version control. You will set up a code editor, create a GitHub repository for your work, and familiarize yourself with using Git to track changes.
 
 **Tasks (In Class):**
 

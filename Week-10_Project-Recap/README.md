@@ -1,8 +1,9 @@
 # Week 10: Project Work & Recap of Functions and Control Flow
 
-**Summary:**  
+## Summary  
 ???
 
-**Instructions:**
-- **Project Work:**
+## Tasks
+
+### Project Work
   - Work on your final project.

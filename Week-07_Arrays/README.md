@@ -1,15 +1,15 @@
 ## Week 7: Arrays
 
-**Summary:**  
+## Summary  
 Arrays are vital for handling lists of data. This week, you’ll learn how to work with arrays in JavaScript and use them to manage dynamic content on your site.
 
-**Tasks:**
+## Tasks
 
-- **FreeCodeCamp Lab:**
+### FreeCodeCamp Lab 
 
   - Do the lab [Lunch Picker Program](https://www.freecodecamp.org/learn/full-stack-developer/lab-lunch-picker-program/build-a-lunch-picker-program)
 
-- **Project Work:**
+### Project Work
 
   - **Project Setup:**
 

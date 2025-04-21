@@ -33,7 +33,7 @@ function drawArt() {
   // Clear the canvas before drawing
   context.clearRect(0, 0, canvas.width, canvas.height);
 
-  // Draw the central circle
+  // Draw an examplary central circle
   drawCircle(centerX, centerY, baseCircleRadius, getRandomHslColor());
 
   // TODO: Add a for loop to draw circles

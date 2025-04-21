@@ -1,14 +1,19 @@
 # Week 09: Objects
 
-**Summary:**  
+## Summary  
 This week focuses on JavaScript objects, a fundamental data structure that allows you to store collections of data and more complex entities. You will learn how to create, access, and manipulate objects, which are essential for organizing your code and managing state in your applications.
 We will also scope and figure out the final project for the course.
 
-**Instructions:**
+## Resources
+- [MDN Web Docs: JavaScript Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+- [W3 Schools JavaScript Objects](https://www.w3schools.com/js/js_objects.asp)
+- [W3 Schools JavaScript Object Methods](https://www.w3schools.com/js/js_object_methods.asp)
 
-- **FreeCodeCamp Lab:**
+## Tasks
+
+### FreeCodeCamp Lab 
 
   - Complete the challenges on [Basic Data Structures: Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/) to practice creating and accessing object properties.
 
-- **Project Work:**
+### Project Work
   - Work on your final project.

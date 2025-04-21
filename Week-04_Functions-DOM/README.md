@@ -4,13 +4,20 @@
 
 This week introduces JavaScript fundamentals with a focus on writing functions and manipulating the DOM. You will learn how to change webpage content dynamically.
 
-## Tasks
+## Resources
+Here are some resources. It is not required to go through all of them, but they are good references if you need them or get stuck.
 
+- [W3 schools JavaScript & DOM](https://www.w3schools.com/js/js_htmldom.asp)
+- [W3 schools JavaScript DOM Methods](https://www.w3schools.com/js/js_htmldom_methods.asp)
+
+## Tasks
 You will have two weeks to complete the tasks for this week. So don't worry if you don't finish everything in one week. You can continue working on the tasks next week.
 
-- **FreeCodeCamp Lab:**
+
+### FreeCodeCamp Lab
   - Complete the [Icon Toggler](https://www.freecodecamp.org/learn/full-stack-developer/lab-favorite-icon-toggler/build-a-favorite-icon-toggler) lab to practice creating functions and basic DOM manipulation.
-- **Project Work:**
+  
+### Project Work
 
   - **Folder Structure:**  
     Add a counter project to your projects folder:
