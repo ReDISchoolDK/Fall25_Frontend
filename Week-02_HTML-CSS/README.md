@@ -1,6 +1,7 @@
 # Week 02: HTML and CSS
 
-## Summary  
+## Summary
+
 This week, you'll lay the foundation of your website by learning HTML and CSS fundamentals. You will practice structuring your content semantically and applying basic styles to create an attractive homepage.
 
 ## Resources
@@ -12,34 +13,23 @@ Here are some resources to help you understand the basics of HTML and CSS. It is
 [MDN CSS Styling Basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics)
 
 ## Tasks
-### FreeCodeCamp Lab 
-  - Complete the [Build a Recipe Page](https://www.freecodecamp.org/learn/full-stack-developer/lab-recipe-page/build-a-recipe-page) lab to review HTML elements (headings, paragraphs, lists, images) and basic CSS styling.
+
+### FreeCodeCamp Lab
+
+- Complete the [Build a Recipe Page](https://www.freecodecamp.org/learn/full-stack-developer/lab-recipe-page/build-a-recipe-page) lab to review HTML elements (headings, paragraphs, lists, images) and basic CSS styling.
 
 ### Project Work
-  - **Folder Structure:**  
-    Set up your project folders as follows:
-    ```
-    src/
-      ├── index.html
-      ├── styles.css
-      ├── about/
-      │   ├── index.html
-      │   └── styles.css
-      └── projects/
-          ├── index.html
-          └── styles.css
-    ```
 
-  - **Main `index.html`:**
-    - Create your main `index.html` file using semantic HTML.
-    - Add a `<nav>` element with **two links**:
-      - One linking to the About page (`about/index.html`)
-      - One linking to the Projects page (`projects/index.html`)
-    - Include a `<main>` section for your content and a `<footer>` for additional info.
+- Canvas and layout
 
-  - **Styling:**
-    - Create a `styles.css` file as indicated in the folder structure.
-    - Link `styles.css` to your `index.html` and apply basic styles (e.g., colors, fonts, margins) to enhance your page’s appearance.
+  - Open the template and edit `index.html` to ensure there is a `<canvas id="game" width="288" height="512">` element.
+  - Add a wrapper/container around the canvas if needed for centering on the page.
 
-- **Version Control:**
-  - Commit your work with a clear message and push to GitHub.
+- Background styling
+
+  - Create a CSS file called `flappybird.css`, link it, and set a page background color and apply the provided background image (`flappybirdbg.png`) behind the canvas.
+  - Keep it simple: no game logic yet—just make the canvas visible and nicely placed.
+
+- Version Control
+  - Test your changes using the "Go live" feature in VS Code.
+  - Commit your changes with a clear message like "week-02: add canvas + background styling" and push to GitHub.

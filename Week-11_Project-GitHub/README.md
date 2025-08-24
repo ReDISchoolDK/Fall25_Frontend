@@ -2,14 +2,14 @@
 
 ## Summary
 
-In the final week, you'll put the finishing touches on your personal website and learn how to deploy it online. Hosting your site on GitHub Pages will allow you to share your work with the world.
-
+In the final week, you'll put the finishing touches on your Flappy Bird game and deploy it online. Hosting on GitHub Pages will let you share and play it easily.
 
 ## Tasks
 
 ### Project Work
-- **Project Finalization:**
-  - Review your entire project, ensuring that all HTML, CSS, and JavaScript is clean, responsive, and fully functional.
-  - Update your README.md with a link to your live site and a brief project summary.
-- **Deployment:**
-  - Follow GitHub Pages documentation to deploy your site. Configure your repository (via a `gh-pages` branch or repository settings) so that your site is published.
+
+- Project finalization
+  - Review your game: code tidy, comments added, constants extracted, and basic README.
+- Deployment
+  - Deploy to GitHub Pages (via repository settings). Verify assets load correctly.
+  - Add the live link to your README.

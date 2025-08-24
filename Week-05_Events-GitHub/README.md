@@ -5,6 +5,7 @@
 In Week 5, you'll boost your site’s interactivity by working with event listeners and basic JavaScript variable operations. You'll also learn best practices for using GitHub (branching and pull requests) to manage your code collaboratively.
 
 ## Resources
+
 - [MDN Web Docs: Event Listeners](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 - [Video: GitHub for beginners](https://www.youtube.com/watch?v=i_23KUAEtUM)
 - [Github Article on Branching](https://docs.github.com/en/get-started/using-git/about-branches)
@@ -12,15 +13,17 @@ In Week 5, you'll boost your site’s interactivity by working with event listen
 
 ## Tasks
 
-### FreeCodeCamp Lab 
-  - No lab this week, just practice what you learned in the last weeks and make your counter awesome.
-  
+### FreeCodeCamp Lab
+
+- No lab this week; focus on drafting your movement plan and practicing Git branching/PRs.
+
 ### Project Work
 
-  - Finish the counter project.
+- Think ahead (no coding required):
+
+  - Draft your movement variables and initial values on paper or in a `NOTES.md`.
+  - Write pseudocode for the flap action and the per-frame update.
+  - Identify at least two edge cases (e.g., hitting the top/bottom, repeated input) and how you’ll handle them.
 
 - **Version Control:**
-  - Create a new branch for your counter feature
-  - Add a commit with your changes on that branch
-  - Push your commit and branch to Github
-  - Submit a pull request and assign it to your teacher for review
+  - Commit your notes to the repo on a small branch (e.g., `week-05-notes`).
