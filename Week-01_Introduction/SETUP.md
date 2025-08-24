@@ -70,7 +70,7 @@ Volta makes sure everyone on the team uses the same Node.js and npm versions.
 
 Once Volta is installed, run:
 
-```bashWatch this quick tutorial to understand Git fundamentals:
+```bash
 volta install node
 ```
 
@@ -89,30 +89,56 @@ This installs the latest stable version of Node.js **and** npm.
 
 ---
 
-## 4. Create from Template & Clone the Starter Repo
+## 4. Create from Template & Clone (GitHub CLI)
 
-### a. Create _your_ repository from the template
+We'll use the GitHub CLI to create your repository from the template and clone it locally.
+
+### a. Install GitHub CLI
+
+- Windows (winget):
+  ```bash
+  winget install --id GitHub.cli -e
+  ```
+- macOS (Homebrew):
+  ```bash
+  brew install gh
+  ```
+- Linux: follow the instructions for your distro:
+  https://github.com/cli/cli#linux
+
+Verify the install:
+
+```bash
+gh --version
+```
+
+### b. Log in to GitHub from the CLI
+
+```bash
+gh auth login
+```
+
+Choose: GitHub.com → HTTPS → Login with a web browser → complete the flow.
+
+### c. Create your repo from the template (Web) and then clone
 
 1. Visit: https://github.com/ReDISchoolDK/fe-starter
-2. Click **Use this template** → **Create a new repository**.
-3. Choose **Owner** (your GitHub account).
-4. Name it (e.g., `fe-starter-yourname`), optionally add a description.
-5. Leave **Include all branches** unchecked (default is fine).
-6. Click **Create repository**.
+2. Click "Use this template" → "Create a new repository".
+3. Set:
+   - Owner: your GitHub account
+   - Repository name: `flappybird`
+   - Visibility: Public
+   - Description: Leave blank
+4. Click "Create repository".
 
-> Using **Use this template** makes a brand-new repo with the starter files (not a fork).
+Now clone it to your computer (pick one):
 
-### b. Clone _your new_ repository to your computer
+```bash
+gh repo clone YOUR-USERNAME/flappybird
+cd flappybird
+```
 
-1. On your new repo page (under **your** account), click **Code** and copy the **HTTPS** URL.
-2. Open your terminal (Git Bash or VS Code Terminal), then run:
-
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-   cd YOUR-REPO-NAME
-   ```
-
-## 4. Learn the Basics of Git
+## 5. Learn the Basics of Git
 
 ### Video Tutorial for using Git in VS Code
 
@@ -134,14 +160,16 @@ Watch this quick tutorial to understand Git fundamentals:
 
 ---
 
-## 5. Initialize Git & Make Your First Commit
+## 6. Initialize Git & Make Your First Commit
 
 In your project folder:
 
 ```bash
-cd fe-starter
+cd fe-starter-YOURNAME
 git config --global user.name "Your Name"
-git config --global user.email "your-email@example.com"
+# Use your GitHub noreply email to keep your real email private.
+# Find it at: GitHub → Settings → Emails → your @users.noreply.github.com address.
+git config --global user.email "YOURID+USERNAME@users.noreply.github.com"
 ```
 
 Then edit the `index.html` file and commit your changes:
@@ -154,13 +182,13 @@ Then edit the `index.html` file and commit your changes:
    - Click the **Source Control** icon on the left sidebar.
    - Click the **+** next to changed files to stage them.
    - Enter a commit message (e.g., "Initial commit with Hello World") and click the checkmark to commit.
-   - Click the **...** menu and select **Push** to upload your changes to GitHub. 
+   - Click the **...** menu and select **Push** to upload your changes to GitHub.
 
 ---
 
-## 6. Add Collaborators (Teachers)
+## 7. Add Collaborators (Teachers)
 
-1. Go to your forked repo on GitHub.
+1. Go to your repo on GitHub.
 2. Navigate: **Settings → Collaborators (or Manage Access)**.
 3. Click **Add collaborator**.
 4. Enter your teacher’s GitHub username and send an invite.
