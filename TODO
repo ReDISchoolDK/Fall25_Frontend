@@ -1,12 +1,10 @@
 - Week 9-11 Project Readmes + deployment
 - Deploy example project
 
---- After Pitch
-
-- Incorporate feedback
 - Update Week 1 slides with the following
   - Class structure, rules, suggestions
   - Explain how to use AI for this course (for help, not for doing the work. FOr suggestions after you have done the work, on how to improve your skills. Give example prompt)
   - Workshop: Getting everyone set up
 
-  - Debugger in browser in week 3?
+- Adjust slides for week 2-5 to match the project (e.g. variable names, examples)
+  - Week 3: loading images, drawing on canvas
