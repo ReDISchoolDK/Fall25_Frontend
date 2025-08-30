@@ -228,3 +228,4 @@ Then edit the `index.html` file and commit your changes:
 - [ ] Git configured with your name and email (`git config --global user.name` and `git config --global user.email`)
 - [ ] Edited `index.html` and made your first commit and push to GitHub
 - [ ] Added your teacher as a collaborator on GitHub on your project repo
+- [ ] Make sure you can access the AI tools repo in GitHub (ask a teacher if unsure)
