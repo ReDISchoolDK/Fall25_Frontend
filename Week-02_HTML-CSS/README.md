@@ -33,3 +33,4 @@ Here are some resources to help you understand the basics of HTML and CSS. It is
 - Version Control
   - Test your changes using the "Go live" feature in VS Code.
   - Commit your changes with a clear message like "week-02: add canvas + background styling" and push to GitHub.
+  - Send a link to your repo to your assigned teacher for feedback in Slack.

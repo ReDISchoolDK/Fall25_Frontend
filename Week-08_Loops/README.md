@@ -22,4 +22,4 @@ Here are some resources. It is not required to go through all of them, but they 
 
 - **Version Control:**
   - Commit on a branch with a message like "week-08: pipes array + movement" and open a PR.
-  
+  - Send a link to your PR to your assigned teacher for feedback in Slack.

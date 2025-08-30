@@ -28,3 +28,7 @@ We will also scope and figure out the final project for the course.
   - Implement collision detection between the bird’s rectangle and pipe rectangles. End the game on collision.
 
   - Bonus: draw score text to the canvas
+
+- **Version Control:**
+  - Commit on a branch with a message like "week-09: pipes array + movement" and open a PR.
+  - Send a link to your PR to your assigned teacher for feedback in Slack.

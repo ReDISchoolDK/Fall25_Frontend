@@ -27,3 +27,5 @@ In Week 5, you'll boost your site’s interactivity by working with event listen
 
 - **Version Control:**
   - Commit your notes to the repo on a small branch (e.g., `week-05-notes`).
+  - Create a pull request and assign it to your teacher for review.
+  - Send a link to your PR to your assigned teacher for feedback in Slack.

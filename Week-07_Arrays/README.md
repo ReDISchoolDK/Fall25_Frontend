@@ -20,5 +20,5 @@ Arrays are vital for handling lists of data. This week, you’ll learn how to wo
 
 - **Version Control:**
   - Commit your notes to the repo on a small branch (e.g., `week-07-notes`).
-
-- (Optional) Write down any questions you have and bring them to the next class for discussion.
+  - Send a link to your PR to your assigned teacher for feedback in Slack.
+  - (Optional) Write down any questions you have and bring them to the next class for discussion.

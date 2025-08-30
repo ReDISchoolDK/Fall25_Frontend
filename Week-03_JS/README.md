@@ -30,3 +30,5 @@ Here are some resources to help you understand the basics of JavaScript. It is n
 
 - Version Control
   - Commit with a message like "week-03: draw static bird and pipes" and push.
+  - Send a link to your repo to your assigned teacher for feedback in Slack.
+

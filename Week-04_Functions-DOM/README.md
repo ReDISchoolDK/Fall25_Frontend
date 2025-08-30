@@ -26,3 +26,5 @@ Here are some resources. It is not required to go through all of them, but they 
 
 - Version Control
   - Add your plan to `README.md` or a `NOTES.md` and commit it.
+  - Send a link to your repo to your assigned teacher for feedback in Slack.
+

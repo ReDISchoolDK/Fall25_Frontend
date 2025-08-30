@@ -30,3 +30,4 @@ Here are some resources to help you understand logical operators and conditional
 
 - **Version Control:**
   - Commit on a branch (e.g., `week-06-bird-movement`) and submit a pull request.
+  - Send a link to your PR to your assigned teacher for feedback in Slack.

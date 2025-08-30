@@ -120,9 +120,9 @@ gh auth login
 
 Choose: GitHub.com → HTTPS → Login with a web browser → complete the flow.
 
-### c. Create your repo from the template (Web) and then clone
+### c. Create your project repo from the template (Web) and then clone
 
-1. Visit: https://github.com/ReDISchoolDK/fe-starter
+1. Visit: https://github.com/ReDISchoolDK/fe-starter-project
 2. Click "Use this template" → "Create a new repository".
 3. Set:
    - Owner: your GitHub account
@@ -131,7 +131,7 @@ Choose: GitHub.com → HTTPS → Login with a web browser → complete the flow.
    - Description: Leave blank
 4. Click "Create repository".
 
-Now clone it to your computer (pick one):
+Now clone it to your computer:
 
 ```bash
 gh repo clone YOUR-USERNAME/flappybird
@@ -195,6 +195,13 @@ Then edit the `index.html` file and commit your changes:
 
 ---
 
+## 8. Have the teachers add you to the Github Repos
+
+1. Share your GitHub username in the Slack channel.
+2. Wait for the teachers to add you as a collaborator to the relevant repositories.
+
+---
+
 ## 8. Helpful Resources
 
 - [Git official website](https://git-scm.com/)
@@ -209,3 +216,15 @@ Then edit the `index.html` file and commit your changes:
 - VS Code ready,
 - Your own copy of the starter project,
 - Your first commit pushed to GitHub.
+
+## Final Checklist (call a teacher to help verify this when you reach this point):
+
+- [ ] Git installed and verified (`git --version`)
+- [ ] Volta and Node.js installed (`node --version` and `npm --version`)
+- [ ] VS Code installed (`code .` in terminal)
+- [ ] GitHub CLI installed and verified (`gh --version`)
+- [ ] Your own GitHub repo created from the template
+- [ ] Repo cloned locally and opened in VS Code
+- [ ] Git configured with your name and email (`git config --global user.name` and `git config --global user.email`)
+- [ ] Edited `index.html` and made your first commit and push to GitHub
+- [ ] Added your teacher as a collaborator on GitHub on your project repo
