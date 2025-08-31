@@ -30,6 +30,10 @@ Here are some resources to help you understand the basics of HTML and CSS. It is
   - Create a CSS file called `flappybird.css`, link it, and set a page background color and apply the provided background image (`flappybirdbg.png`) behind the canvas.
   - Keep it simple: no game logic yet—just make the canvas visible and nicely placed.
 
+  Things you will have to find out:
+  - How to add a background image in CSS.
+  - How to center an element on the page using CSS.
+
 - Version Control
   - Test your changes using the "Go live" feature in VS Code.
   - Commit your changes with a clear message like "week-02: add canvas + background styling" and push to GitHub.
