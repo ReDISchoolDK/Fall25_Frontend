@@ -1,14 +1,21 @@
-# Personal Portfolio Website Course
+# Frontend Course (Fall 2025)
 
-Welcome to our Frontend Development course! Over the coming weeks, you will build your own personal portfolio website using HTML, CSS, and JavaScript. Each session targets a specific set of skills with hands-on labs from freeCodeCamp to reinforce core concepts. Be sure to commit your progress regularly to GitHub, practice good coding habits, and collaborate with your peers via pull requests.
+This course guides you through building and deploying a simple Flappy Bird style browser game while learning modern frontend fundamentals. Across 11 instructional weeks you incrementally add structure (HTML), style (CSS), movement & interaction (JavaScript: events, loops, arrays, objects), and polish (refactor, UX, deployment) while practicing version control and collaboration.
 
-| Week | Topic |
-|------|-------|
-| Week 02 | [HTML and CSS](./Week-02_HTML-CSS/README.md) |
-| Week 04 | [Functions and DOM Manipulation](./Week-04_Functions-DOM/README.md) |
-| Week 05 | [Event Listeners, Basic Variable Operations, and GitHub Integration](./Week-05_Events-GitHub/README.md) |
-| Week 06 | [Logical Operators and Conditionals](./Week-06_Operators-Conditionals/README.md) |
-| Week 07 | [Arrays](./Week-07_Arrays/README.md) |
-| Week 09 | [Objects](./Week-09_Objects/README.md) |
-| Week 10 | [Project Work & Recap of Functions and Control Flow](./Week-10_Project-Recap/README.md) |
-| Week 11 | [Final Project & Hosting on GitHub Pages](./Week-11_Project-GitHub/README.md) |
+---
+
+## 📅 Weekly Roadmap
+
+| Week | Focus                                              | Link                                                       |
+| ---- | -------------------------------------------------- | ---------------------------------------------------------- |
+| 01   | Introduction, Environment, Git Basics              | [Week 01 Intro](./Week-01_Introduction/README.md)          |
+| 02   | HTML Canvas & Basic Styling                        | [Week 02 HTML & CSS](./Week-02_HTML-CSS/README.md)         |
+| 03   | JavaScript Basics (Variables, Functions, Debugger) | [Week 03 JS Basics](./Week-03_JS/README.md)                |
+| 04   | Functions, DOM Selection & Manipulation            | [Functions & DOM](./Week-04_Functions-DOM/README.md)       |
+| 05   | Events, Variables Review, GitHub Collaboration     | [Events & GitHub](./Week-05_Events-GitHub/README.md)       |
+| 06   | Logical Operators & Conditionals (Control Flow)    | [Conditionals](./Week-06_Operators-Conditionals/README.md) |
+| 07   | Arrays: Storing & Processing Collections           | [Arrays](./Week-07_Arrays/README.md)                       |
+| 08   | Loops & Iteration Patterns                         | [Loops](./Week-08_Loops/README.md)                         |
+| 09   | Objects & Modeling Data                            | [Objects](./Week-09_Objects/README.md)                     |
+| 10   | Project Work & Recap (Refactor + Feature Polish)   | [Project Recap](./Week-10_Project-Recap/README.md)         |
+| 11   | Final Project, Deployment (GitHub Pages)           | [Final & Hosting](./Week-11_Project-GitHub/README.md)      |
