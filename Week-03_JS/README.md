@@ -31,21 +31,72 @@ Here are some resources to help you understand the basics of JavaScript. It is n
 
     - A pair of pipes (`toppipe.png`, `bottompipe.png`) placed off to the right side.
 
+    Example JavaScript snippet to get you started:
+
     ```js
-    // Example: create a variable for your image
-    let birdImg = new Image();
-    birdImg.src = "flappybird.png";
+    //board
+    let board;
+    let boardWidth = 360;
+    let boardHeight = 640;
+    let context;
 
-    // Draw the image on the canvas (after it loads)
-    ctx.drawImage(birdImg, 100, 150);
+    //bird
+    let birdWidth = 34; //width/height ratio = 408/228 = 17/12
+    let birdHeight = 24;
+    let birdX = boardWidth/8;
+    let birdY = boardHeight/2;
+    let birdImg;
 
-    // Try changing the position or image
+    //pipes
+    let pipeWidth = 64; //width/height ratio = 384/3072 = 1/8
+    let pipeHeight = 512;
+    let pipeX = boardWidth;
+    let pipeY = 0;
 
-    // Try using variables for positions too:
+    let topPipeImg;
+    let bottomPipeImg;
 
-    let birdX = 100;
-    let birdY = 150;
-    ctx.drawImage(birdImg, birdX, birdY);
+    window.onload = function() {
+        board = document.getElementById("board");
+        board.height = boardHeight;
+        board.width = boardWidth;
+        context = board.getContext("2d"); //used for drawing on the board
+
+        //draw flappy bird
+        context.fillStyle = "green";
+        // Replace these with sensible numbers and experiment! :) e.g. context.fillRect(100, 100, 30, 50);
+        context.fillRect(Rectangular X Position, Rectangular Y Position, Rectangular Width, Rectangular Height);
+
+        //load images
+        birdImg = new Image();
+        birdImg.src = "./flappybird.png";
+        birdImg.onload = function() {
+          // Feel free to first experiment with some numbers: context.drawImage(birdImg, 100, 100, 30, 50) before using variables
+            context.drawImage(Variable that holds the image, Image X Position, Image Y Position, Image Width, Image Height);
+        }
+    }
+    ```
+
+    A clean index.html:
+
+    ```html
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          ,
+          content="width=device-width, initial-scale=1.0"
+        />
+        <title>Flappy Bird</title>
+        <link rel="stylesheet" href="flappybird.css" />
+        <script src="flappybird.js"></script>
+      </head>
+      <body>
+        <canvas id="board"></canvas>
+      </body>
+    </html>
     ```
 
   - Keep your variables simple.
