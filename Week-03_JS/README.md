@@ -20,7 +20,7 @@ Here are some resources to help you understand the basics of JavaScript. It is n
 
 ### Project Work
 
-- Using the template repo, render static sprites on the canvas (no movement yet):
+- In your project repository, we will render static sprites on the canvas (no movement yet):
 
   - create a `flappybird.js` file and link it in `index.html`.
   - Ensure your JS is loaded (e.g., `flappybird.js` referenced from `index.html`).

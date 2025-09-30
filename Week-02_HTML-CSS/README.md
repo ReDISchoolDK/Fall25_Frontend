@@ -20,6 +20,8 @@ Here are some resources to help you understand the basics of HTML and CSS. It is
 
 ### Project Work
 
+Open your project repository (the one you created in the first week) and complete the following tasks:
+
 - Canvas and layout
 
   - Open the template and edit `index.html` to ensure there is a `<canvas id="game" width="288" height="512">` element.
@@ -31,6 +33,7 @@ Here are some resources to help you understand the basics of HTML and CSS. It is
   - Keep it simple: no game logic yet—just make the canvas visible and nicely placed.
 
   Things you will have to find out:
+
   - How to add a background image in CSS.
   - How to center an element on the page using CSS.
 
