@@ -17,6 +17,21 @@ Here are some resources. It is not required to go through all of them, but they 
 
 - Complete the [Icon Toggler](https://www.freecodecamp.org/learn/full-stack-developer/lab-favorite-icon-toggler/build-a-favorite-icon-toggler) lab to practice creating functions and basic DOM manipulation.
 
+### Create a simple counter
+
+Create a counter:
+
+- The counter should start at 0
+- Make a function to increase the counter
+- Make a function to decrease the counter
+- Number should increase when hitting ‘+’
+- Number should decrease when hitting ‘-’ but not below 0
+- (Bonus: Add a reset button to set counter to 0)
+
+Hint: You can ask ChatGPT how to run a function after clicking a button
+
+![Example Counter](./counter.jpg)
+
 ### Project Work
 
 - Think ahead (no coding required):
