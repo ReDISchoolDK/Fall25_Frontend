@@ -14,6 +14,7 @@ This week you will make your bird move: add a keyboard event so pressing the spa
 - [MDN: addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 - [MDN: Keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
 - [Video: GitHub for beginners](https://www.youtube.com/watch?v=i_23KUAEtUM)
+- [Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
 - [GitHub: Branching](https://docs.github.com/en/get-started/using-git/about-branches)
 - [GitHub: Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
