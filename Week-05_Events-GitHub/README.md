@@ -1,5 +1,7 @@
 # Week 05: Keyboard Events (Space to Jump) & GitHub Workflow
 
+OMG you made it to week 5! Tilykke! Some more changes here!
+
 ## Summary
 
 This week you will make your bird move: add a keyboard event so pressing the spacebar makes the bird "jump" upward while gravity constantly pulls it down. You'll practice:
