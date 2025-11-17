@@ -19,16 +19,43 @@ We will also scope and figure out the final project for the course.
 
 ### Project Work
 
-  - Create a `pipes` array and push your first pipe pair object `{ x, topHeight, gap, width }`.
-  - In the game loop, iterate over `pipes` to move each left by a constant `speed`.
-  - When a pipe goes off-screen, remove it from the array and spawn a new one (timer or frame counter).
-  - Ensure drawing order is background -> pipes -> bird.
+This week, we will also decide on the direction for your final project. You have three options to choose from, allowing you to apply the skills you've learned in a way that best suits your interests.
 
-  - Add a `score` variable; increment when the bird passes a pipe pair.
-  - Implement collision detection between the bird’s rectangle and pipe rectangles. End the game on collision.
+**Concept Summary of the Three Options**
 
-  - Bonus: draw score text to the canvas
+Students choose their final project direction based on how they want to apply their skills:
 
-- **Version Control:**
-  - Commit on a branch with a message like "week-09: pipes array + movement" and open a PR.
-  - Send a link to your PR to your assigned teacher for feedback in Slack.
+1.  **Finish and polish Flappy Bird**
+    Build on an existing foundation. The focus is on refining, improving, and expanding what already exists—perfect for practicing iteration, debugging, and feature enhancement.
+
+2.  **Create another game**
+    Start fresh while staying in a familiar domain. This option encourages creativity, problem-solving, and applying core front-end concepts in a playful, structured way.
+
+3.  **Do something entirely different**
+    Explore any front-end idea beyond games. This path supports self-directed learning, personal interests, and experimenting with real-world interfaces or tools.
+
+Together, these options allow students to either deepen an existing project or pursue something new—while demonstrating the full range of skills they’ve learned.
+
+#### Option 1: Flappy Bird Requirements
+
+For those choosing to finish Flappy Bird, here are the requirements for a complete game:
+
+- **Game State Management:**
+  - Start screen to begin the game.
+  - Game over screen displaying the final score.
+  - Ability to restart the game after a game over.
+- **Gameplay Mechanics:**
+  - Bird flaps when the user interacts (e.g., clicks or presses a key).
+  - Pipes are generated continuously and move across the screen.
+  - Score increments as the bird successfully passes through pipes.
+- **Collision and Scoring:**
+  - Collision detection between the bird and pipes.
+  - The game ends upon collision.
+  - The score is displayed on the screen during gameplay and on the game over screen.
+- **Graphics and Animation:**
+  - Bird animation (e.g., flapping wings).
+  - Drawing order is correct: background -> pipes -> bird.
+- **Bonus Features (Optional):**
+
+  - Sound effects for flapping, scoring, and collision.
+  - Increasing difficulty over time (e.g., pipes speed up).
